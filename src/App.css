@@ -1,3 +1,9 @@
+/* @font-face{
+  font-family: font;
+  src: url(fonts/Furore/Furore.otf);
+} */
+
+
 .App {
   text-align: center;
 }
@@ -20,3 +26,11 @@
 .App-link {
   color: #09d3ac;
 }
+
+h2{
+  text-align: center;
+  /* font-family: font; */
+}
+
+
+
