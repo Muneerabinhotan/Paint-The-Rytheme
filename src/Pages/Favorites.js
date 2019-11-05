@@ -1,10 +1,14 @@
 import React from 'react';
 
 const Favorites = (props) =>{
+    console.log('hi')
+    const allImage = props.fave.map((img,index)=>{
+        return <img key={index} className="image" src={img} alt=""/>
+    })
+    console.log(allImage)
     return(
         <div>
-            <h1></h1>
-            <p></p>
+            {allImage}
         </div>
     );
 }

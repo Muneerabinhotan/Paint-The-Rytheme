@@ -32,5 +32,18 @@ h2{
   /* font-family: font; */
 }
 
+.image{
+flex-direction: column;
+padding: 12px;
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+
+.link{
+  color: white;
+}
+
 
 
