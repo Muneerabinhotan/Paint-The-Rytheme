@@ -8,6 +8,8 @@ const Favorites = (props) =>{
     console.log(allImage)
     return(
         <div>
+         <h2>Favorites</h2>
+
             {allImage}
         </div>
     );

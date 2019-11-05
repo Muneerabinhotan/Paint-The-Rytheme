@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+import {Carousel, Spinner} from 'react-bootstrap';
 import First from '../science-and-charity.jpg';
 import Second from '../night-fishing-at-antibes.jpg';
 import Third from '../mediterranean-landscape.jpg';
@@ -21,7 +21,11 @@ class HomePage extends Component{
            <h2>Discover The World Of Art</h2>
             <p></p>
             {/* Condition for the images */}
-            {this.props.posts.length == 0 ? <h2>Loading </h2> : (
+            {this.props.posts.length == 0 ? <div> <div class="d-flex justify-content-center">
+                <Spinner animation="border" variant="secondary" size="lg"/></div>
+                <h2>Loading.. </h2></div> : (
+
+
             <Carousel>
                 <Carousel.Item>
                     <img className="d-block w-75 mx-auto"src={this.props.posts[0].urls.regular} alt="First slide"/>
@@ -53,30 +57,46 @@ class HomePage extends Component{
                 <div>
                    <img className="image" src={First} alt="f"/>
                    <button onClick={(e)=>this.props.favorite(First)}>fave</button> 
+                   <button onClick={(e)=>this.props.addImage(First)}>Add</button> 
+
                 </div>
                 <div>
                    <img className="image" src={Second} alt="f"/>
                    <button onClick={(e)=>this.props.favorite(Second)}>fave</button> 
+                   <button onClick={(e)=>this.props.addImage(Second)}>Add</button> 
+
                 </div><div>
                    <img className="image" src={Third} alt="f"/>
                    <button onClick={(e)=>this.props.favorite(Third)}>fave</button> 
+                   <button onClick={(e)=>this.props.addImage(Third)}>Add</button> 
+
                 </div><div>
                    <img className="image" src={Fourth} alt="f"/>
                    <button onClick={(e)=>this.props.favorite(Fourth)}>fave</button> 
+                   <button onClick={(e)=>this.props.addImage(Fourth)}>Add</button> 
+
                 </div>
                     
                 <h2>Vincent Van Gogh</h2>
                 <img className="image" src={Fifth} alt="f"/>
                 <button onClick={(e)=>this.props.favorite(Fifth)}>fave</button> 
+                <button onClick={(e)=>this.props.addImage(Fifth)}>Add</button> 
+
 
                 <img className="image" src={Sixth} alt="s"/>
                 <button onClick={(e)=>this.props.favorite(Sixth)}>fave</button> 
+                <button onClick={(e)=>this.props.addImage(Sixth)}>Add</button> 
+
 
                 <img className="image" src={Seventh} alt="t"/>
                 <button onClick={(e)=>this.props.favorite(Seventh)}>fave</button> 
+                <button onClick={(e)=>this.props.addImage(Seventh)}>Add</button> 
+
 
                 <img className="image" src={Eight} alt="f"/>
                 <button onClick={(e)=>this.props.favorite(Eight)}>fave</button> 
+                <button onClick={(e)=>this.props.addImage(Eight)}>Add</button> 
+
 
     
 

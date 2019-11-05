@@ -45,5 +45,17 @@ padding: 12px;
   color: white;
 }
 
+button{
+  /* justify-content: center;
+  display: inline-block;
+  margin: 0  auto; */
+  width: 10%;
+display: inline-block;
+position: relative;
+  left: 40%;
+  margin-top: 100px;
+
+}
+
 
 

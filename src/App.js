@@ -32,6 +32,22 @@ favorite = (image) =>{
 
 }
 
+addImage = (image) =>{
+  this.setState({
+      add:[...this.state.add,image] // ... copy the array || put it in image
+
+  })
+  console.log(this.state.add)
+
+}
+
+
+clearList = () =>{
+  this.setState({
+      add:[] 
+  })
+console.log("clicked");
+}
 
 componentDidMount(){
   axios.get('https://api.unsplash.com/photos?client_id=b2e1905fc110f9fc791016154a3f5302b1b56d2a8089f15d9d82b440838da1d9')
@@ -68,8 +84,8 @@ componentDidMount(){
         
         
 <Switch>
-          <Route exact path='/' component={ () => <HomePage favorite={this.favorite} posts={this.state.posts} /> }/>
-          <Route path='/AddDeleteClearAll' component={AddDeleteClearAll}/>
+          <Route exact path='/' component={ () => <HomePage addImage={this.addImage} favorite={this.favorite} posts={this.state.posts} /> }/>
+          <Route path='/AddDeleteClearAll' component={ () => <AddDeleteClearAll  clearList={this.state.add} adding={this.state.add}/>}/>
           <Route path='/Favorites' component={ () =><Favorites fave={this.state.fav} />}/>
           <Route path='/Artist1' component={Artist1}/>
           <Route path='/Artist2' component={Artist2}/>
