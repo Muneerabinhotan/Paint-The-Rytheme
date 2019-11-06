@@ -28,7 +28,7 @@ class HomePage extends Component{
 
             <Carousel>
                 <Carousel.Item>
-                    <img height={750} className="d-block w-75 mx-auto" src={this.props.posts[0].urls.regular} alt="First slide"/>
+                    <img height={600} className="d-block w-75 mx-auto" src={this.props.posts[0].urls.regular} alt="First slide"/>
                     {/* <Carousel.Caption>
                         <h3>First slide label</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -36,7 +36,7 @@ class HomePage extends Component{
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <img height={750} className="d-block w-75 mx-auto" src={this.props.posts[1].urls.regular} alt="First slide"/>
+                    <img height={600} className="d-block w-75 mx-auto" src={this.props.posts[1].urls.regular} alt="First slide"/>
                     {/* <Carousel.Caption>
                         <h3>Second slide label</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -44,7 +44,7 @@ class HomePage extends Component{
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <img height={750} className="d-block w-75 mx-auto" src={this.props.posts[2].urls.regular} alt="First slide"/>
+                    <img height={600} className="d-block w-75 mx-auto" src={this.props.posts[2].urls.regular} alt="First slide"/>
                     {/* <Carousel.Caption>
                         <h3>Third slide label</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
