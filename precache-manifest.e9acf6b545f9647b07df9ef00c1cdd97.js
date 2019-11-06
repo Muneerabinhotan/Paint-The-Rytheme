@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "840ac30952f149c5f420968db09ca1ce",
+    "revision": "7c748a7a8f101f040dd7f4164a83dc4c",
     "url": "/paint-the-rytheme/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/paint-the-rytheme/static/css/2.833dd627.chunk.css"
   },
   {
-    "revision": "71a8fa3b906f7db01d80",
+    "revision": "c1d44028843211fb6911",
     "url": "/paint-the-rytheme/static/css/main.0edadc89.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/paint-the-rytheme/static/js/2.513b89d3.chunk.js"
   },
   {
-    "revision": "71a8fa3b906f7db01d80",
-    "url": "/paint-the-rytheme/static/js/main.3862ff33.chunk.js"
+    "revision": "c1d44028843211fb6911",
+    "url": "/paint-the-rytheme/static/js/main.6c4382ce.chunk.js"
   },
   {
     "revision": "1593f07cfcd15bc75076",
