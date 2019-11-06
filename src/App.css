@@ -58,19 +58,19 @@ button{
   
 
 }
-/* 
-.Container{
+
+.img-container{
   position: relative;
   text-align: center;
   display: block;
 }
 
-.btn{
-    position: relative;
-    bottom: 50px;
-    left: 100px; 
-    display: flex;
-  justify-content: space-around;
-} */
+.btnd{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+} 
 
 
