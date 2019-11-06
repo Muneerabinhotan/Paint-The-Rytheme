@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/paint-the-rytheme/static/css/main.c29d1350.chunk.css",
+    "main.css": "/paint-the-rytheme/static/css/main.f08d7872.chunk.css",
     "main.js": "/paint-the-rytheme/static/js/main.3862ff33.chunk.js",
     "main.js.map": "/paint-the-rytheme/static/js/main.3862ff33.chunk.js.map",
     "runtime-main.js": "/paint-the-rytheme/static/js/runtime-main.ac547b67.js",
@@ -9,10 +9,10 @@
     "static/js/2.513b89d3.chunk.js": "/paint-the-rytheme/static/js/2.513b89d3.chunk.js",
     "static/js/2.513b89d3.chunk.js.map": "/paint-the-rytheme/static/js/2.513b89d3.chunk.js.map",
     "index.html": "/paint-the-rytheme/index.html",
-    "precache-manifest.4653d4eeaea94a4bf538cba4d65c6922.js": "/paint-the-rytheme/precache-manifest.4653d4eeaea94a4bf538cba4d65c6922.js",
+    "precache-manifest.984aa50835ac1775c469fed768885026.js": "/paint-the-rytheme/precache-manifest.984aa50835ac1775c469fed768885026.js",
     "service-worker.js": "/paint-the-rytheme/service-worker.js",
     "static/css/2.833dd627.chunk.css.map": "/paint-the-rytheme/static/css/2.833dd627.chunk.css.map",
-    "static/css/main.c29d1350.chunk.css.map": "/paint-the-rytheme/static/css/main.c29d1350.chunk.css.map",
+    "static/css/main.f08d7872.chunk.css.map": "/paint-the-rytheme/static/css/main.f08d7872.chunk.css.map",
     "static/media/gogh.jpg": "/paint-the-rytheme/static/media/gogh.caa91f0e.jpg",
     "static/media/home.jpg": "/paint-the-rytheme/static/media/home.1ab4ed86.jpg",
     "static/media/logo.svg": "/paint-the-rytheme/static/media/logo.25bf045c.svg",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.ac547b67.js",
     "static/css/2.833dd627.chunk.css",
     "static/js/2.513b89d3.chunk.js",
-    "static/css/main.c29d1350.chunk.css",
+    "static/css/main.f08d7872.chunk.css",
     "static/js/main.3862ff33.chunk.js"
   ]
 }
