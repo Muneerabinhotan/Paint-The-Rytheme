@@ -54,7 +54,7 @@ class HomePage extends Component{
             )}
             <div>
 
-                <h2>Pablo Picasso</h2>
+                <h3>Pablo Picasso</h3>
                 <div>
                     <div className="img-container">
                         <img className="image" src={First} alt="f"/>
@@ -89,7 +89,7 @@ class HomePage extends Component{
 
                 </div>
                     
-                <h2>Vincent Van Gogh</h2>
+                <h3>Vincent Van Gogh</h3>
                 <div>
                     <div className="img-container">
                         <img className="image" src={Fifth} alt="f"/>
@@ -117,7 +117,7 @@ class HomePage extends Component{
                         <img className="image" src={Eight} alt="f"/>
                         <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(Eight)}>favorite</button> 
                     </div>
-                <button onClick={(e)=>this.props.addImage(Eight)}>Add</button> 
+                <button className="bb" onClick={(e)=>this.props.addImage(Eight)}>Add</button> 
                 </div>
             </div> 
 

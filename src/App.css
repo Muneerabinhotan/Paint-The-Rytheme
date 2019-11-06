@@ -3,7 +3,9 @@
   src: url(fonts/Furore/Furore.otf);
 } */
 
-
+body{
+  background-image: url('../src/sa.jpg');
+}
 .App {
   text-align: center;
 }
@@ -29,9 +31,17 @@
 
 h2{
   text-align: center;
+  color: white;
   /* font-family: font; */
 }
 
+h3{
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  /* font-family: font; */
+}
 .image{
 flex-direction: column;
 padding: 12px;
@@ -46,19 +56,21 @@ padding: 12px;
 }
 
 button{
-  /* justify-content: center;
-  display: inline-block;
-  margin: 0  auto; */
+  display: block;
   width: 10%;
   display: inline-block;
   position: relative;
-  left: 40%;
+  left: 45%;
   margin-top: 100px;
-  
-  
-
+  background-color: #EFBE1D;
+  border-radius: 25px;
+  padding: 5px;
 }
 
+.bb{
+  padding: 5px;
+  border-radius: 15px;
+}
 .img-container{
   position: relative;
   text-align: center;

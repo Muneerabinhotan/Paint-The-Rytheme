@@ -61,11 +61,11 @@ deleteItem = (e) =>{
 }
 
 componentDidMount(){
-  axios.get('https://api.unsplash.com/photos?client_id=b2e1905fc110f9fc791016154a3f5302b1b56d2a8089f15d9d82b440838da1d9')
+  axios.get('https://api.unsplash.com/search/photos?query=museum&gallery&client_id=b2e1905fc110f9fc791016154a3f5302b1b56d2a8089f15d9d82b440838da1d9')
   .then(res => {
     console.log(res.data);
     this.setState({ //give it data
-      posts: res.data // insert the data to posts[]
+      posts: res.data.results // insert the data to posts[]
     })
   })
   .catch(err => {
@@ -81,7 +81,7 @@ componentDidMount(){
         <Navbar bg="dark" variant="dark" expand="lg">
           <Navbar.Brand><Link className="link" to="/">Paint The Rytheme</Link></Navbar.Brand> 
           <Nav className="mr-auto">                                    
-            <Nav.Link><Link className="link" to="/AddDeleteClearAll">Edit</Link></Nav.Link>
+            <Nav.Link><Link className="link" to="/AddDeleteClearAll">List</Link></Nav.Link>
             <Nav.Link><Link className="link" to="/Favorites">Favorites</Link></Nav.Link>
               <NavDropdown title="Artists" id="basic-nav-dropdown">
                 <NavDropdown.Item><Link to="/Artist1">Pablo Picasso</Link> </NavDropdown.Item>
@@ -94,14 +94,12 @@ componentDidMount(){
         
         
         
-<Switch>
           <Route exact path='/' component={ () => <HomePage addImage={this.addImage} favorite={this.favorite} posts={this.state.posts} /> }/>
           <Route path='/AddDeleteClearAll' component={ () => <AddDeleteClearAll   deleteItem={this.deleteItem} clearList={this.clearList} adding={this.state.add}/>}/>
           <Route path='/Favorites' component={ () =><Favorites fave={this.state.fav} />}/>
           <Route path='/Artist1' component={Artist1}/>
           <Route path='/Artist2' component={Artist2}/>
           
-</Switch>
           </Router>
 
       );
