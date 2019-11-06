@@ -60,14 +60,12 @@ padding: 12px;
 
 button{
   display: block;
-  width: 10%;
+  width: 11%;
   display: inline-block;
   position: relative;
   left: 45%;
-  margin-top: 100px;
   background-color: #EFBE1D;
-  border-radius: 25px;
-  padding: 5px;
+  padding: 6px;
   font-family: 'Squada One';
 
 }
@@ -90,6 +88,7 @@ button{
 
 div{
   font-family: 'Squada One';
+  margin: 2px;
 
 }
 
