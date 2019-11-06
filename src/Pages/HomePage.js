@@ -10,17 +10,12 @@ import Seventh from '../gogh.jpg';
 import Eight from '../home.jpg';
 
 class HomePage extends Component{
-
-    // console.log(props.posts);
    
     render(){
     return(
         <div>
-            {/* <h1>Paint The Rytheme</h1> */}
-            <p></p>
            <h2>Discover The World Of Art ! </h2>
-            <p></p>
-            {/* Condition for the images */}
+           {/* Condition for the Carousel to show loading item until the images added to the array */}
             {this.props.posts.length == 0 ? <div> <div class="d-flex justify-content-center">
                 <Spinner animation="border" variant="secondary" size="lg"/></div>
                 <h2>Loading.. </h2></div> : (
