@@ -12,13 +12,11 @@ const AddDeleteClearAll = (props) =>{
     // })
     return(
         <div>
-            <h1></h1>
-            <p></p>
-            <div>
+            <h2>Favorites</h2>
             {List}
             <button onClick={props.clearList}>Clear List!</button>
 
-        </div>
+      
         </div>
     );
 }
