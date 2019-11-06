@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/paint-the-rytheme/precache-manifest.1764f39d76504b35de5fad01d0f63bb6.js"
+  "/paint-the-rytheme/precache-manifest.4653d4eeaea94a4bf538cba4d65c6922.js"
 );
 
 self.addEventListener('message', (event) => {
