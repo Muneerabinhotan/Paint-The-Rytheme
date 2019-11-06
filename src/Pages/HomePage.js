@@ -18,7 +18,7 @@ class HomePage extends Component{
         <div>
             {/* <h1>Paint The Rytheme</h1> */}
             <p></p>
-           <h2>Discover The World Of Art</h2>
+           <h2>Discover The World Of Art ! </h2>
             <p></p>
             {/* Condition for the images */}
             {this.props.posts.length == 0 ? <div> <div class="d-flex justify-content-center">
@@ -117,7 +117,7 @@ class HomePage extends Component{
                         <img className="image" src={Eight} alt="f"/>
                         <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(Eight)}>favorite</button> 
                     </div>
-                <button className="bb" onClick={(e)=>this.props.addImage(Eight)}>Add</button> 
+                <button  onClick={(e)=>this.props.addImage(Eight)}>Add</button> 
                 </div>
             </div> 
 
