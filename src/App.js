@@ -42,11 +42,22 @@ addImage = (image) =>{
 }
 
 
-clearList = () =>{
+clearList = (e) =>{
+  console.log("clicked");
+  
   this.setState({
-      add:[] 
+    add:[] 
   })
-console.log("clicked");
+}
+
+deleteItem = (e) =>{
+  console.log("clicked");
+  console.log(e);
+  const add=[...this.state.add]
+  const index = add.indexOf(e);
+  add.splice(index,1)
+
+  this.setState({add })
 }
 
 componentDidMount(){
@@ -73,9 +84,9 @@ componentDidMount(){
             <Nav.Link><Link className="link" to="/AddDeleteClearAll">Edit</Link></Nav.Link>
             <Nav.Link><Link className="link" to="/Favorites">Favorites</Link></Nav.Link>
               <NavDropdown title="Artists" id="basic-nav-dropdown">
-                <NavDropdown.Item><Link to="/">Pablo Picasso</Link> </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item><Link to="/">Vincent Van Gogh</Link></NavDropdown.Item>
+                <NavDropdown.Item><Link to="/Artist1">Pablo Picasso</Link> </NavDropdown.Item>
+                <NavDropdown.Divider/>
+                <NavDropdown.Item><Link to="/Artist2">Vincent Van Gogh</Link></NavDropdown.Item>
               </NavDropdown>
             </Nav> 
             
@@ -85,7 +96,7 @@ componentDidMount(){
         
 <Switch>
           <Route exact path='/' component={ () => <HomePage addImage={this.addImage} favorite={this.favorite} posts={this.state.posts} /> }/>
-          <Route path='/AddDeleteClearAll' component={ () => <AddDeleteClearAll  clearList={this.state.add} adding={this.state.add}/>}/>
+          <Route path='/AddDeleteClearAll' component={ () => <AddDeleteClearAll   deleteItem={this.deleteItem} clearList={this.clearList} adding={this.state.add}/>}/>
           <Route path='/Favorites' component={ () =><Favorites fave={this.state.fav} />}/>
           <Route path='/Artist1' component={Artist1}/>
           <Route path='/Artist2' component={Artist2}/>
