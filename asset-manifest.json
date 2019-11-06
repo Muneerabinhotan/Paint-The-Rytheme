@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/paint-the-rytheme/static/css/main.fae43c00.chunk.css",
+    "main.js": "/paint-the-rytheme/static/js/main.3862ff33.chunk.js",
+    "main.js.map": "/paint-the-rytheme/static/js/main.3862ff33.chunk.js.map",
+    "runtime-main.js": "/paint-the-rytheme/static/js/runtime-main.ac547b67.js",
+    "runtime-main.js.map": "/paint-the-rytheme/static/js/runtime-main.ac547b67.js.map",
+    "static/css/2.833dd627.chunk.css": "/paint-the-rytheme/static/css/2.833dd627.chunk.css",
+    "static/js/2.513b89d3.chunk.js": "/paint-the-rytheme/static/js/2.513b89d3.chunk.js",
+    "static/js/2.513b89d3.chunk.js.map": "/paint-the-rytheme/static/js/2.513b89d3.chunk.js.map",
+    "index.html": "/paint-the-rytheme/index.html",
+    "precache-manifest.e34fd759781499b4e59a0b7b779d988f.js": "/paint-the-rytheme/precache-manifest.e34fd759781499b4e59a0b7b779d988f.js",
+    "service-worker.js": "/paint-the-rytheme/service-worker.js",
+    "static/css/2.833dd627.chunk.css.map": "/paint-the-rytheme/static/css/2.833dd627.chunk.css.map",
+    "static/css/main.fae43c00.chunk.css.map": "/paint-the-rytheme/static/css/main.fae43c00.chunk.css.map",
+    "static/media/gogh.jpg": "/paint-the-rytheme/static/media/gogh.caa91f0e.jpg",
+    "static/media/home.jpg": "/paint-the-rytheme/static/media/home.1ab4ed86.jpg",
+    "static/media/logo.svg": "/paint-the-rytheme/static/media/logo.25bf045c.svg",
+    "static/media/mediterranean-landscape.jpg": "/paint-the-rytheme/static/media/mediterranean-landscape.e3270381.jpg",
+    "static/media/night-fishing-at-antibes.jpg": "/paint-the-rytheme/static/media/night-fishing-at-antibes.c6f4301b.jpg",
+    "static/media/App.css": "/paint-the-rytheme/static/media/sa.1de03921.jpg",
+    "static/media/science-and-charity.jpg": "/paint-the-rytheme/static/media/science-and-charity.53389f11.jpg",
+    "static/media/van-gogh-sunflowers.jpg": "/paint-the-rytheme/static/media/van-gogh-sunflowers.fa82e815.jpg",
+    "static/media/van.jpg": "/paint-the-rytheme/static/media/van.c7404bb4.jpg",
+    "static/media/young-ladies-on-the-bank-of-seine.jpg": "/paint-the-rytheme/static/media/young-ladies-on-the-bank-of-seine.e2531d7c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac547b67.js",
+    "static/css/2.833dd627.chunk.css",
+    "static/js/2.513b89d3.chunk.js",
+    "static/css/main.fae43c00.chunk.css",
+    "static/js/main.3862ff33.chunk.js"
+  ]
+}
