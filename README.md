@@ -34,7 +34,11 @@ This Project is ReactJS App Project which demonstrates the following:
 
 ## Wireframes
 
-* 
+![Home Page](HomePage.png)
+![List Page](ListPage.png)
+![Favorite Page](FavoritePage.png)
+![Artist 1](Artist1.png)
+![Artist 2](Artist2.png)
 
 
 ## Live Application URL
