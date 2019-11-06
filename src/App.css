@@ -65,6 +65,7 @@ button{
   position: relative;
   left: 45%;
   background-color: #EFBE1D;
+  border-radius: 15px;
   padding: 6px;
   font-family: 'Squada One';
 
