@@ -1,68 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) 
 
-## Available Scripts
+# Project #2: Paint The Rytheme
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+* [Overview](#overview)
+* [Wireframes](#wireframes)
+* [Application Design](#application-design)
+* [Live Application URL](#live-application-url)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Overview
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This Project is ReactJS App Project which demonstrates the following:
+* Creating a Components in React.
+* Communicating between parent and child component.
+* Using React-Bootstrap.
+* Using Basic Routing in React.
+* Using Axios to make asynchronous JavaScript calls.
 
-### `npm test`
+## Wireframes
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* 
 
-### `npm run build`
+## Application Design
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Home Page Component: This Component displays a Carousel of images using API and React-Bootstrap, and displays data about the artists and the users are able to "Add" or "Favorite" any painting to their list.
+2. List Component: This Component displays the painting that the users added to the list, and they are able to delete specific painting or clear all the list.
+3. Favorite Component: This Component displays the painting that the users marked them as favorite.
+4. Artist 1 "Pablo Picasso": Displays his work.
+5. Artist 2 "Vincent Van Gogh": Displays his work.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Live Application URL
 
-### `npm run eject`
+### https://muneerabinhotan.github.io/paint-the-rytheme/
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

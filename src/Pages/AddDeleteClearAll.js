@@ -12,7 +12,7 @@ const AddDeleteClearAll = (props) =>{
     // })
     return(
         <div>
-            <h2>Favorites</h2>
+            <h2>List</h2>
             {List}
             <button onClick={props.clearList}>Clear List!</button>
 
