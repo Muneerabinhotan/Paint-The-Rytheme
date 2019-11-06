@@ -27,8 +27,8 @@ This Project is ReactJS App Project which demonstrates the following:
 1. Home Page Component: This Component displays a Carousel of images using API and React-Bootstrap, and displays data about the artists and the users are able to "Add" or "Favorite" any painting to their list.
 2. List Component: This Component displays the painting that the users added to the list, and they are able to delete specific painting or clear all the list.
 3. Favorite Component: This Component displays the painting that the users marked them as favorite.
-4. Artist 1 "Pablo Picasso": Displays his work.
-5. Artist 2 "Vincent Van Gogh": Displays his work.
+4. Pablo Picasso Component: Displays his work.
+5. Vincent Van Gogh Component: Displays his work.
 
 
 ## Live Application URL
