@@ -16,7 +16,8 @@ class HomePage extends Component{
         <div>
            <h2>Discover The World Of Art ! </h2>
            {/* Condition for the Carousel to show loading item until the images added to the array */}
-            {this.props.posts.length == 0 ? <div> <div class="d-flex justify-content-center">
+            {this.props.posts.length == 0 ? <div>
+                <div class="d-flex justify-content-center">
                 <Spinner animation="border" variant="secondary" size="lg"/></div>
                 <h2>Loading.. </h2></div> : (
 
@@ -47,13 +48,13 @@ class HomePage extends Component{
                 </Carousel.Item>
             </Carousel>
             )}
+            
             <div>
-
                 <h3>Pablo Picasso</h3>
                 <div>
                     <div className="img-container">
                         <img className="image" src={First} alt="f"/>
-                        <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(First)} >favorite</button>  
+                        <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(First)} >Favorite</button>  
                     </div> 
                    <button onClick={(e)=>this.props.addImage(First)}>Add</button> 
                 </div>      
@@ -61,7 +62,7 @@ class HomePage extends Component{
                 <div>
                     <div className="img-container">
                         <img className="image" src={Second} alt="f"/>
-                       <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(Second)}>favorite</button> 
+                       <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(Second)}>Favorite</button> 
                     </div> 
 
                    <button onClick={(e)=>this.props.addImage(Second)}>Add</button> 
@@ -70,7 +71,7 @@ class HomePage extends Component{
                 <div>
                     <div className="img-container">
                         <img className="image" src={Third} alt="f"/>
-                        <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(Third)}>favorite</button> 
+                        <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(Third)}>Favorite</button> 
                     </div>
                    <button onClick={(e)=>this.props.addImage(Third)}>Add</button> 
 
@@ -78,7 +79,7 @@ class HomePage extends Component{
                 <div>
                     <div className="img-container">
                         <img className="image" src={Fourth} alt="f"/>
-                        <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(Fourth)}>favorite</button> 
+                        <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(Fourth)}>Favorite</button> 
                     </div>
                    <button onClick={(e)=>this.props.addImage(Fourth)}>Add</button> 
 
@@ -88,7 +89,7 @@ class HomePage extends Component{
                 <div>
                     <div className="img-container">
                         <img className="image" src={Fifth} alt="f"/>
-                        <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(Fifth)}>favorite</button> 
+                        <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(Fifth)}>Favorite</button> 
                 </div>
                 <button onClick={(e)=>this.props.addImage(Fifth)}>Add</button> 
 
@@ -96,21 +97,21 @@ class HomePage extends Component{
                 <div>
                     <div className="img-container">
                         <img className="image" src={Sixth} alt="s"/>
-                        <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(Sixth)}>favorite</button> 
+                        <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(Sixth)}>Favorite</button> 
                     </div>
                 <button onClick={(e)=>this.props.addImage(Sixth)}>Add</button> 
                 </div>
                 <div>
                     <div className="img-container">
                         <img className="image" src={Seventh} alt="t"/>
-                        <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(Seventh)}>favorite</button>
+                        <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(Seventh)}>Favorite</button>
                     </div> 
                 <button onClick={(e)=>this.props.addImage(Seventh)}>Add</button> 
                 </div>
                 <div>
                     <div className="img-container">
                         <img className="image" src={Eight} alt="f"/>
-                        <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(Eight)}>favorite</button> 
+                        <button className='btn btn-warning btnd' onClick={(e)=>this.props.favorite(Eight)}>Favorite</button> 
                     </div>
                 <button  onClick={(e)=>this.props.addImage(Eight)}>Add</button> 
                 </div>
