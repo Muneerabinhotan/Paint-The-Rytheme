@@ -40,7 +40,7 @@ class HomePage extends Component{
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <img height={600} className="d-block w-75 mx-auto" src={this.props.posts[2].urls.regular} alt="First slide"/>
+                    <img height={600} className="d-block w-75 mx-auto" src={this.props.posts[3].urls.regular} alt="First slide"/>
                     {/* <Carousel.Caption>
                         <h3>Third slide label</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
